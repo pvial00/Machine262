@@ -1,4 +1,5 @@
 # Machine262
+*** Warning this cipher is pretty good
 
 26 rotor ciphering machine
 
