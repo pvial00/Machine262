@@ -1,6 +1,7 @@
 # Machine262
 
 26 rotor ciphering machine
+
 Requires 26 letter (A-Z) key
 
 # Usage
