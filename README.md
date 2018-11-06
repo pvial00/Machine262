@@ -5,6 +5,8 @@
 
 Requires 26 letter (A-Z) key
 
+Machine262 is an Enigma like rotor machine with near random features.
+
 # Usage
 
 from machine262 import Machine
