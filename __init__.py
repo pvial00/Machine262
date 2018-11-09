@@ -50,7 +50,6 @@ class Wiring:
 class Machine:
     def provision(self, key):
         rotors = []
-        c = 1
         i = 0
         for k in range(len(key)):
             state = range(26)
@@ -59,7 +58,6 @@ class Machine:
                 i = (i + setting + state[s % 26]) % 26
                 state[s % 26], state[i] = state[i], state[s % 26]
             rotors.append(Rotor(state, setting, setting))
-            c += 1
         self.wiring = Wiring(rotors)
 
     def encrypt(self, data, key):
