@@ -13,7 +13,7 @@ It has 26 rotors, and each rotor steps 26 steps following the rotor before it.  
 
 from machine262 import Machine
 
-msg = "2HELLOWORLD"
+msg = "HELLOWORLD"
 
 key = "BLCJFRNQDQBUZXVUFDMGCQNZHQ"
 
